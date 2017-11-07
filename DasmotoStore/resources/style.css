@@ -1,0 +1,39 @@
+* {
+  font-family: Helvetica, Arial;
+}
+
+h1 {
+  background-image: url(".\resources\pattern.jpeg");
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+
+  /* attempted local file paths without success:
+  background-image: url("resources/pattern.jpeg")
+  background-image: url("./resources/pattern.jpeg")
+  background-image: url("C:\Projects\DasmotoStore\resources\pattern.jpeg") */
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+.bluebold {
+  color: blue;
+  font-weight: bold;
+}
