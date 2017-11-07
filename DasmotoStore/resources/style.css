@@ -3,12 +3,11 @@
 }
 
 h1 {
-  background-image: url(".\resources\pattern.jpeg");
   font-size: 100px;
   font-weight: bold;
   color: khaki;
   text-align: center;
-
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
   /* attempted local file paths without success:
   background-image: url("resources/pattern.jpeg")
   background-image: url("./resources/pattern.jpeg")
